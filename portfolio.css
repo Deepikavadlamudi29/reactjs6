@@ -1,0 +1,147 @@
+* {
+    text-align: center;
+    box-sizing: border-box; 
+    transition-property: all;
+    transition-duration:1s ;
+    transition-timing-function: linear;
+    animation-name:vadlamudi;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    
+}
+@keyframes vadlamudi{
+    0%{ background-color: rgb(190, 178, 200);}
+    50%{ background-color: rgba(147, 109, 179, 0.9);}
+    100%{ background-color: rgba(184, 149, 212, 0.9);}
+}
+
+
+body {
+    background-color: #BEB2C8;
+    margin: 0; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-decoration: dotted underline;
+}
+
+h2 {
+    color: rgb(85, 2, 85);
+    text-decoration: dashed underline;
+}
+
+h3 {
+    color: rgb(97, 6, 183);
+}
+
+p, h4 {
+    color: rgb(9, 89, 126);
+}
+
+a {
+    color: rgb(242, 238, 238);
+    background-color: rgb(137, 108, 164);
+    text-decoration: none;
+    margin-right: 20px; 
+}
+
+div {
+    background-color: rgb(137, 108, 164);
+    padding: 10px; 
+    margin: 10px;
+}
+
+.deepu {
+    font-size: large;
+    margin-right: 20px;
+}
+
+.Dee {
+    height: 30px;
+    width: 20px;
+    background-color: rgb(137, 108, 164);
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+#deep {
+    border: 2px dashed rgb(137, 108, 164);
+    height: 150px;
+    width: 130px;
+    margin: 10px;
+}
+
+/* Responsive Layout */
+@media screen and (max-width: 750px) {
+    /* Adjust styles for screens with a maximum width of 768px */
+    
+    #one, #two, #three, #four {
+        height: auto; 
+        width: 100%; 
+        display: block; 
+        margin-right: 0; 
+    }
+    
+    .deepu {
+        font-size: medium; /
+        margin-right: 10px;
+    }
+    
+    .Dee {
+        margin-right: 10px;
+        margin-left: 5px;
+    }
+    
+    #deep {
+        height: auto;
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+#footof {
+    text-align: justify;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin-right: 20px;
+    padding-left: 20px;
+    border: 2px;
+    background-color: rgba(137, 108, 164, 0.5);
+}
+#one:hover{
+    background-color: rgba(137,108,164,0.6) ;
+    font-size: 17px;
+    transform:rotate(5deg);
+} 
+#two:hover{
+    background-color: rgba(137,108,164,0.6) ;
+    font-size: 17px;
+    transform:rotate(5deg);
+}
+#three:hover{
+    background-color: rgba(137,108,164,0.6) ;
+    font-size: 17px;
+    transform:rotate(5deg);
+}
+#four:hover {
+    background-color: rgba(137, 108, 164,0.6) ;
+    font-size: 17px;
+    transform:rotate(5deg);
+}
+#one:active{
+    background-color: rgba(137,108,164,0) ;
+} 
+#two:active{
+    background-color: rgba(137,108,164,0) ;
+}
+#three:active{
+    background-color: rgba(137,108,164,0) ;
+}
+#four:active {
+    background-color: rgba(137, 108, 164,0) ;
+}
+
